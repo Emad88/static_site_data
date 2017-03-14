@@ -1,0 +1,101 @@
+body
+{
+	font-family:$serifFontFamily;
+	font-size:$baseFontSize;
+	font-weight:300;
+	line-height:$baseLineHeight;
+	color:$textColor;
+	background:$documentBgColor;
+	@include background-retina("../images/layout/noise.png", "../images/layout/noise-2x.png");
+
+	@media(max-width:$breakpoint_tablet)
+	{
+		font-size:$baseFontSize - 1px;
+		line-height:$baseLineHeight - 2px;
+	}
+}
+
+a
+{
+	color:$textColor;
+	text-decoration:underline;
+
+	&:hover
+	{
+		color:$linkColor;
+		@include transition-duration($linkTransition);
+	}
+}
+
+h1,h2,h3
+{
+	font-family:$sansFontFamily;
+	font-size:24px;
+	font-weight:500;
+	color:$headingColor;
+
+	a
+	{
+		color:$headingColor;
+
+		&:hover
+		{
+			color:$linkColor;
+			@include transition-duration($linkTransition);
+		}
+	}
+}
+
+h6
+{
+	color:$headingColor;
+}
+
+strong
+{
+	font-weight:600;
+	color:$strongColor;
+}
+
+em
+{
+	font-style:italic;
+}
+
+u
+{
+	text-decoration:underline;
+}
+
+img,
+iframe
+{
+	display:block;
+}
+
+input[type=text]
+{
+	width:100%;
+	height:36px;
+	line-height:36px - 2px;
+	padding:0 10px;
+	border:1px solid $borderColor;
+	@include box-sizing(border-box);
+}
+
+input[type=submit]
+{
+	width:100%;
+	height:36px;
+	line-height:36px;
+	font-family:$sansFontFamily;
+	background:$col_blue;
+	color:$col_white;
+	cursor:pointer;
+	@include box-sizing(border-box);
+
+	&:hover
+	{
+		background:$col_darkGrey;
+	}
+}

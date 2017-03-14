@@ -1,0 +1,42 @@
+// Colours
+// -------------------------
+$col_white          : #fff;
+$col_lightestGrey   : #eee;
+$col_lighterGrey    : #dfdfdf;
+$col_lightGrey      : #c1c1c1;
+$col_grey           : #7b7b7b;
+$col_darkGrey       : #1d1d1d;
+$col_black          : #000;
+$col_blue           : #50afe4;
+$col_red            : #f7536b;
+$col_yellow         : #f90;
+$col_green          : #084;
+
+
+// Layout
+// -------------------------
+$breakpoint_desktop : 1020px;
+$breakpoint_tablet  : 868px;
+$breakpoint_mobile  : 480px;
+
+// Images
+// -------------------------
+$imageFolder        : "images";
+
+// Typography
+// -------------------------
+$sansFontFamily     : 'Open Sans', Arial, "Helvetica Neue", Helvetica, sans-serif;
+$serifFontFamily    : 'PT Serif', Georgia, "Times New Roman", Times, serif;
+$quoteFontFamily    : Georgia, "Times New Roman", Times, serif;
+$baseFontSize       : 14px;
+$baseLineHeight     : 24px;
+$textColor          : $col_grey;
+$metaColor          : $col_lightGrey;
+$headingColor       : $col_darkGrey;
+$strongColor        : $col_grey;
+$documentBgColor    : $col_lightestGrey;
+$menuColor          : $col_grey;
+$borderColor        : $col_lighterGrey;
+$boxBgColor         : $col_white;
+$linkColor          : $col_blue;
+$linkTransition     : .4s;

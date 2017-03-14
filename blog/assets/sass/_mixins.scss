@@ -1,0 +1,54 @@
+@import "compass/css3";
+@import "compass/utilities/sprites";
+@import 'addon/_retina-sprites';
+@import 'addon/_retina-background-image';
+
+@mixin clearfix()
+{
+	*zoom:1;
+	&:before,
+	&:after
+	{
+		display:table;
+		content:"";
+		line-height:0;
+	}
+	&:after
+	{
+		clear:both;
+	}
+}
+
+// Change margin between columns
+@mixin column_margin($boxMarginSide)
+{
+	margin-left:(-$boxMarginSide);
+	margin-right:(-$boxMarginSide);
+
+	> div > div
+	{
+		margin-left:$boxMarginSide;
+		margin-right:$boxMarginSide;
+	}
+}
+
+// Icons
+@import "../images/icons/*.png";
+@import "../images/icons-2x/*.png";
+@mixin icon_after($icon, $pos_v:"top", $val_v:0, $pos_h:"left", $val_h:0)
+{
+	&:after
+	{
+		display  : block;
+		position : absolute;
+		content  : " ";
+
+		@if($pos_v == "top") {top   : $val_v;}
+		@else                {bottom: $val_v;}
+
+		@if($pos_h == "left"){left : $val_h;}
+		@else                {right: $val_h;}
+
+		@include use-sprite($icon);
+	}
+}
