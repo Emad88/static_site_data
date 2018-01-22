@@ -618,7 +618,10 @@ body
 
 									img
 									{
-										max-width:620px;
+										//max-width:620px;
+										width:auto;
+										height:auto;
+										@include box-sizing(border-box);
 									}
 								}
 
