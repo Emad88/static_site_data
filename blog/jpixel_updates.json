@@ -1,7 +1,11 @@
 [
 	{
+		"version"   : "18.11.02",
+		"changelog" : "[*]Fixed launching issue on Windows 10"
+	},
+	{
 		"version"   : "16.07.01",
-		"changelog" : "[*]Added circle and rectangle shape tools[*]Automatic palette updates on color change can be toggled[*]Color replacement can be toggled when importing a palette[*]Automatic tile updates when overwriting one in the tileset can be toggled[*]Crash messages when closing JPixel on Windows 10 shouldn't occur anymore"
+		"changelog" : "[*]Added circle and rectangle shape tools[*]Automatic palette updates on color change can be toggled using the <img src=\"assets/images/icons/palette-toggle-autoupdate-on.png\" class=\"icon\"> button.[*]Color replacement can be toggled when importing a palette[*]Automatic tile updates when overwriting a tile in the tileset can be toggled[*]Crash messages when closing JPixel on Windows 10 shouldn't occur anymore"
 	},
 	{
 		"version"   : "16.03.16",
