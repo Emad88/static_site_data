@@ -1,0 +1,34 @@
+[
+	{
+		"version"   : "16.07.01",
+		"changelog" : "[*]Added circle and rectangle shape tools[*]Automatic palette updates on color change can be toggled[*]Color replacement can be toggled when importing a palette[*]Automatic tile updates when overwriting one in the tileset can be toggled[*]Crash messages when closing JPixel on Windows 10 shouldn't occur anymore"
+	},
+	{
+		"version"   : "16.03.16",
+		"changelog" : "[*]Fixed a bug occurring when merging down layers[*]Clicking outside the canvas while using the Selection tool will reset the current selection"
+	},
+	{
+		"version"   : "16.01.21",
+		"changelog" : "[*]New frames are added after the current frame[*]New layers are added over the current layer[*]Selections can be dragged outside the canvas[*]Added ctrl/alt shortcuts to add/subtract selections[*]Added single frame .png export[*]UI changes"
+	},
+	{
+		"version"   : "15.11.30",
+		"changelog" : "[*]Fixed a bug occurring when increasing the width of the tileset panel[*]Added help tooltips for the palette and tileset panels"
+	},
+	{
+		"version"   : "15.11.24",
+		"changelog" : "[*].gif can now be opened[*]Added mirror canvas functions[*]Added rotate layer/selection functions[*]Added contiguous wand tool[*]Files can now have a custom background[*]Improved saturation filter[*]Improved importing/exporting[*]UI changes and improvements"
+	},
+	{
+		"version"   : "15.09.25",
+		"changelog" : "[*]Implemented multiple tile functionalities to the tiles panel[*]Added selection size helper[*]Update checks can be disabled in Settings[*]Minor UI changes and fixes[*]Improved thumbnails performance"
+	},
+	{
+		"version"   : "15.08.17",
+		"changelog" : "[*]Implemented Outline filter[*]Copying a selection will now discard transparent pixels[*].jpx extension is added automatically to the filename if missing when saving a new file[*]Undo/Redo won't affect the filename anymore[*]The background can be changed to any color in Settings"
+	},
+	{
+		"version"   : "15.05.29",
+		"changelog" : "[*]Implemented variable speed animations[*]Implemented Import/Export PNG palettes[*]Implemented updates notifications[*]Bug fixing and improvements"
+	}
+]
