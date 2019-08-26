@@ -1,7 +1,7 @@
 # Require any additional compass plugins here.
 
 # Set this to the root of your project when deployed:
-http_path = "https://dl.dropboxusercontent.com/u/1794738/t/assets"
+http_path = "https://raw.githubusercontent.com/Emad88/data/master/blog/assets"
 css_dir = "css"
 sass_dir = "sass"
 images_dir = "images"

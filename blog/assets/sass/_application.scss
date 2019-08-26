@@ -242,6 +242,7 @@ body
 							&.email{@include use-sprite(social_em);}
 							&.deviantart{@include use-sprite(social_da);}
 							&.steam{@include use-sprite(social_st);}
+							&.instagram{@include use-sprite(social_in);}
 						}
 					}
 				}
